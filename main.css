@@ -1,9 +1,19 @@
 body {
-  background: #fff;
+  background: #fffdee;
 }
 
 h1 {
   color: #FF2734;
+}
+
+.project div:hover{
+ background-color: #e0eaf0;
+}
+
+.container-fluid {
+  width: 90%;
+  margin: auto;
+  /* text-align: center; */
 }
 
 .float{
@@ -18,14 +28,9 @@ h1 {
 }
 
 section {
-  height: 450px;
+  height: 400px;
 }
 
-/* .skills {
-  /* color: #fff; */
-  /* background-image: url('images/image2.jpg'); */
-  /* background-attachment: fixed; */
-/* }  */
 .square {
   border: 1px solid #000;
   height: 250px;
