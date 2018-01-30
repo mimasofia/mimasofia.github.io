@@ -1,7 +1,40 @@
 body {
-  background: #000;
+  background: #fff;
 }
 
 h1 {
   color: #FF2734;
+}
+
+.float{
+  margin-left: 60px;
+}
+
+.margin{
+  margin-left: 60px;
+}
+.project {
+  margin: auto;
+}
+
+section {
+  height: 450px;
+}
+
+/* .skills {
+  /* color: #fff; */
+  /* background-image: url('images/image2.jpg'); */
+  /* background-attachment: fixed; */
+/* }  */
+.square {
+  border: 1px solid #000;
+  height: 250px;
+  width:40%;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+footer {
+  clear: both;
 }
