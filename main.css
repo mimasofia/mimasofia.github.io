@@ -1,5 +1,9 @@
+.about-me {
+  background-color: #296ea0;
+  margin-bottom: -22px;
+}
 body {
-  background: #fffdee;
+  background: #fff;
 }
 
 h1 {
@@ -11,7 +15,7 @@ h1 {
 }
 
 .container-fluid {
-  width: 90%;
+  width: 100%;
   margin: auto;
   /* text-align: center; */
 }
@@ -20,17 +24,30 @@ h1 {
   margin-left: 60px;
 }
 
+.skills {
+  background-color: #ff8e32;
+}
+
 .margin{
   margin-left: 60px;
-}
-.project {
-  margin: auto;
 }
 
 section {
   height: 400px;
 }
 
+.project {
+  margin: auto;
+  background-color: #21a85e;
+  height: 650px;
+}
+
+.picture {
+  width: 40%;
+  height: 400px;
+  margin: auto;
+  border: 1px solid #000;
+}
 .square {
   border: 1px solid #000;
   height: 250px;
@@ -40,6 +57,10 @@ section {
   margin-top: 30px;
 }
 
+.row-one,
+.row-two {
+  background-color: #fff;
+}
 footer {
   clear: both;
 }
