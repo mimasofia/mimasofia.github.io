@@ -33,8 +33,14 @@ footer {
   clear: both;
 }
 
-h1 {
+.name-head {
   color: #FF2734;
+  padding-top: 70px;
+}
+
+
+h3{
+padding-top: 70px;
 }
 
 .margin{
@@ -44,9 +50,16 @@ h1 {
 .me-pic {
   text-align: center;
   height: 500px;
-  background-color: #fff;
-  margin-bottom: -21px;
-  margin-top:-30px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.name-title {
+  font-size: 40px;
+}
+nav {
+  position: fixed;
+  top: 0px;
 }
 
 nav,
@@ -54,10 +67,15 @@ nav,
   background-color: #e3a692;
 }
 
+.pic-holder{
+  background-image: url('./images/jeeves.jpg');
+  background-size: contain;
+  height: 500px;
+}
 .project {
   margin: auto;
   background-color: #edddce;
-  height: 1200px;
+  height: 1400px;
   text-align: center;
 }
 
@@ -81,7 +99,7 @@ nav,
 }
 
 section {
-  height: 400px;
+  height: 500px;
 }
 
 .skills {
@@ -97,4 +115,16 @@ section {
   float: left;
   /* margin-bottom: 30px; */
   margin-top: 50px;
+}
+
+.thanks-head {
+  font-size: 19px;
+}
+
+.transparent-box {
+  height: 200px;
+  width: 50%;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.6);
+  margin: auto;
 }
