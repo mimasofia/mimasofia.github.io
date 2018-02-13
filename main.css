@@ -68,10 +68,9 @@ nav,
 }
 
 .pic-holder{
-  background-image: url('./images/jeeves.jpg');
-  background-size: contain;
   height: 500px;
 }
+
 .project {
   margin: auto;
   background-color: #edddce;
@@ -122,9 +121,13 @@ section {
 }
 
 .transparent-box {
-  height: 200px;
+  height: 150px;
   width: 50%;
   border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
   margin: auto;
+}
+
+.winter-pic {
+  height: 250px;
 }
