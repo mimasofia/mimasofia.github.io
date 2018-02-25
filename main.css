@@ -1,11 +1,21 @@
+a:hover {
+  background-color: #d7d9c8;
+  color: #000;
+}
+
 .about-me {
   background-color: #edddce;
   margin-bottom: -22px;
   font-size: 20px;
   text-align: center;
 }
+
 body {
   background: #fff;
+}
+
+.breed-list {
+
 }
 
 .container-fluid {
@@ -14,16 +24,16 @@ body {
   /* text-align: center; */
 }
 
-.desciption,
+/* .desciption,
 .desciption-two,
 .desciption-three,
 .desciption-four {
   float: left;
   width: 50%;
   background-color: #fff;
-  border: 1px solid #000;
-  margin-bottom: -48px;
-}
+  /* border: 1px solid #000; */
+  /* margin-bottom: -48px;
+} */
 
 .float{
   margin-left: 60px;
@@ -43,6 +53,10 @@ h3{
 padding-top: 70px;
 }
 
+img {
+  width: 100%;
+}
+
 .margin{
   margin-left: 60px;
 }
@@ -60,6 +74,7 @@ padding-top: 70px;
 nav {
   position: fixed;
   top: 0px;
+
 }
 
 nav,
@@ -78,6 +93,15 @@ nav,
   text-align: center;
 }
 
+.project-links {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #03a69a;
+  color: #fff;
+  font-size: 20px;
+}
+
 .picture {
   width: 40%;
   height: 400px;
@@ -85,10 +109,11 @@ nav,
   border: 1px solid #000;
 }
 
-.project-one {
+/* .project-one {
   background-image: url('./images/Tic-Tac-Toe.png');
   background-size: cover;
-}
+} */
+
 .row-one,
 .row-two {
   background-color: #fff;
@@ -98,7 +123,7 @@ nav,
 }
 
 section {
-  height: 500px;
+  height: 580px;
 }
 
 .skills {
@@ -108,7 +133,7 @@ section {
 }
 
 .square {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   height: 250px;
   width:50%;
   float: left;
@@ -120,14 +145,22 @@ section {
   font-size: 19px;
 }
 
+.tic-tac,
+.breed-list {
+  width: 45%;
+  float: left;
+  margin-left: 40px;
+  background-color: #fff;
+}
 .transparent-box {
   height: 150px;
   width: 50%;
   border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.7);
+  /* background: rgba(255, 255, 255, 0.7); */
   margin: auto;
 }
 
 .winter-pic {
   height: 250px;
+  width: 20%;
 }
