@@ -31,3 +31,9 @@ $('.to-bottom-scroll').click(function () {
     scrollTop: $('.bottom').offset().top
   }, 1000)
 })
+
+$('.contact-scroll').click(function () {
+  $('html, body').animate({
+    scrollTop: $('.contact').offset().top
+  }, 1000)
+})
