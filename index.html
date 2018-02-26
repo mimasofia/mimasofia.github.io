@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" type="text/css" href="main.css">
 
 </head>
@@ -39,8 +40,12 @@
   <section class="about-me">
     <a name="Aboutme"></a>
     <h3>About me</h3>
-    <p> My name is Virginia. I am currently taking a web development immersive course at General Assembly. Before this course I studied Psychology and worked as a Pharmacy Technician. I have always loved problem solving and learning new topics. Web development has taught me so much and has helped improve my problem solving skils as well as allowed me to be more creative in buidling new sites and applications.
-       My hope is to work as a developer in a stable company that would be benefit from my unique skills.</p>
+    <p class="paragraph"> Thank you for visiting my site! My name is Virginia. I am currently taking a web development immersive course at General Assembly.</p>
+    <br>
+      <p class="paragraph">I studied Psychology and worked as a Pharmacy Technician prior to taking the immersive course. I have always loved problem solving
+        and working with other people. I look forward to working with a team of developers and adding mu unique skill to a team.</p>
+        <br>
+       <p class="paragraph">Checkout some of the projects I have worked on down below.</p>
     <!-- <a href="./Virginia_Donaire_Resume_Updated_2018.pdf">
         <button>Download Resume</button>
     </a> -->
@@ -49,7 +54,21 @@
   <section class="skills">
     <a name="Currentskills"></a>
     <h3>Technical Skills</h3>
-    <ul>
+    <div class="row">
+      <div class="col s3 icon"><i class="devicon-jquery-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-css3-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-bootstrap-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-github-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-html5-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-javascript-plain colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-postgresql-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-rails-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-ruby-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-mongodb-plain-wordmark colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-express-original colored"></i></div>
+      <div class="col s3 icon"><i class="devicon-nodejs-plain-wordmark colored"></i></div>
+      </div>
+    <!-- <ul>
       <li>HTML5</li>
       <li>CSS3</li>
       <li>Bootstrap</li>
@@ -63,19 +82,17 @@
       <li>MongoDB</li>
       <li>Mongoose</li>
       <li>Materialize</li>
-    </ul>
+    </ul> -->
   </section>
 
   <section class="project">
     <a name="Projects"></a>
     <h3>Projects</h3>
-    <div class="first-project">
+    <div class="first-project grow">
         <div class="tic-tac">
       <img class='tic-pic' src="./images/Tic-Tac-Toe.png">
-        <p>This is my first project, Tic tac toe made with HTML5, CSS3, JavaScript, jQuery, AJAX. This was the first project I built.
-        It is a two player game that is played on a single computer. With the backend, the player
-      can keep track of how many games they have played, how many games they have creates, look at a
-      specific game based on a game ID or start a new game.
+      <h5>Tic-Tac-Toe</h5>
+        <p>This is my first project, Tic tac toe made with HTML5, CSS3, JavaScript, jQuery, AJAX.
       <br>
       <a class="project-links" href="https://mimasofia.github.io/Tic-tac-toe/">Live</a>
       <a class="project-links" href="https://github.com/mimasofia/mimasofia.github.io">Github</a>
@@ -83,25 +100,34 @@
       </div>
   </div>
 
-  <div class="second-project">
+  <div class="second-project grow">
       <div class="breed-list">
     <img class='breed' src="./images/Breed-list.png">
-      <p>This is an application for people to make a list of potential dogs they are considering buying. The user is able
-        to input the breed, gender, weight and height. The user can delete or edit the breed they have inputed. This app uses Ruby, Ruby on Rails, AJAX, CSS3 and HTML5. Both the front and
-        the back end where done by me in this projec.
+      <p>This is an application for people to make a list of potential dogs. This app uses Ruby, Ruby on Rails, AJAX, CSS3 and HTML5.
     <br>
     <a class="project-links" href="https://mimasofia.github.io/Breed-list-frontend/">Live</a>
     <a class="project-links" href="https://github.com/mimasofia/Breed-list-frontend">Github</a>
   </p>
     </div>
 </div>
-<div class="third-project">
+
+<div class="third-project grow">
     <div class="surveys">
   <img class='survey' src="./images/survey.png">
-    <p>This is the group project. It is an application for users to make and take surveys. It is done with
-      Express, JavaScript, AJAX, JQuesry, HTML5 and CSS3. It has two schemas set up so that a user can make
-      a survey and each survey has its own submissions. The creator of the survey can edit and delete the survey as
-      well as see the tally of true and flase answers. All other signed in user can take suervey that are already made.
+    <p>This is a group project. It is an application for users to make and take surveys. It is done with
+      Express, JavaScript, AJAX, JQuesry, HTML5 and CSS3.
+  <br>
+  <a class="project-links" href="https://curlpower.github.io/curlpower/">Live</a>
+  <a class="project-links" href="https://github.com/curlpower/curlpower">Github</a>
+</p>
+  </div>
+</div>
+
+<div class="third-project grow">
+    <div class="surveys">
+  <img class='survey' src="./images/survey.png">
+    <p>This is a group project. It is an application for users to make and take surveys. It is done with
+      Express, JavaScript, AJAX, JQuesry, HTML5 and CSS3.
   <br>
   <a class="project-links" href="https://curlpower.github.io/curlpower/">Live</a>
   <a class="project-links" href="https://github.com/curlpower/curlpower">Github</a>
