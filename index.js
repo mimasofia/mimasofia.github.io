@@ -37,3 +37,7 @@ $('.contact-scroll').click(function () {
     scrollTop: $('.contact').offset().top
   }, 1000)
 })
+
+$(document).ready(function () {
+  $('.button-collapse').sideNav()
+})

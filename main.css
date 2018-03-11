@@ -1,3 +1,4 @@
+
 a:hover {
   background-color: #eeeeee;
   color: #000;
@@ -59,6 +60,7 @@ footer {
 h3{
   padding-top: 70px;
   color: #C45C5C;
+  text-shadow: 1px 1px 2px black;
 }
 
 h5 {
@@ -74,7 +76,9 @@ img {
   margin-top: 5px;
   width: 90%;
 }
-
+.job{
+  font-size: 20px;
+}
 .link-sites {
   font-size: 25px;
   margin: 40px;
@@ -94,11 +98,8 @@ img {
 
 .me-pic {
   text-align: center;
-  height: 500px;
-  padding-top: 120px;
-  padding-bottom: 50px;
-  background-image: url("./images/temp.jpg");
-  /* position: relative; */
+  background-image: url("./images/virginia.jpg");
+  background-size: cover;
 }
 
 .name-title {
@@ -110,6 +111,7 @@ nav {
   position: fixed;
   top: 0px;
   width: 100%;
+  z-index: 1000;
 }
 
 nav,
@@ -179,6 +181,17 @@ section {
   margin-top: 50px;
 }
 
+.text-pic {
+  text-shadow: 1px 1px 2px gray;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  color: #000;
+  /* border: 1px solid #000; */
+  width: 45%;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.5)
+}
 .thanks-head {
   font-size: 19px;
   color: #fff;
@@ -198,7 +211,7 @@ section {
   width: 40%;
   height: 500px;
   float: left;
-  margin-left: 90px;
+  margin-left: 75px;
   margin-top: 30px;
   margin-bottom: 20px;
   background-color: #fff;
@@ -213,4 +226,9 @@ section {
 .winter-pic {
   height: 400px;
   width: 100%;
+}
+
+.virginia {
+  height: 600px;
+
 }
