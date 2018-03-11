@@ -165,6 +165,7 @@ nav,
 
 section {
   height: 580px;
+  width: 100%;
 }
 
 .skills {
@@ -211,7 +212,7 @@ section {
   width: 40%;
   height: 500px;
   float: left;
-  margin-left: 75px;
+  /* margin-left: 75px; */
   margin-top: 30px;
   margin-bottom: 20px;
   background-color: #fff;
@@ -219,16 +220,61 @@ section {
   box-shadow: 0 0 10px #6f6f71;
 }
 
+.breed-list,
+.travelDocs {
+  margin-left: 45px;
+}
+
+.tic-tac,
+.surveys{
+  margin-left: 75px;
+}
+
 .to-top-scroll {
   background-color: #03a69a;
 }
 
-.winter-pic {
-  height: 400px;
-  width: 100%;
-}
-
 .virginia {
   height: 600px;
+}
 
+@media (max-width: 800px) {
+  .about-me {
+    height: 520px;
+    font-size: 16px;
+  }
+  .project {
+    height: 2400px;
+    width: 100%;
+  }
+  .tic-tac,
+  .breed-list,
+  .surveys,
+  .travelDocs {
+    width: 70%;
+    display: inline-block;
+    margin-left: 80px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .job {
+    font-size: 15px;
+  }
+  .text-pic{
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    width: 70%;
+    height: 20%;
+  }
+  .skills {
+    height: 500;
+  }
+  .icon {
+    font-size: 65px;
+  }
+  .contact {
+    display: inline-block;
+  }
 }
